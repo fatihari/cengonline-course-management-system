@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "303037703974",
+    "firebase_url": "https://cengonline-e8060.firebaseio.com",
+    "project_id": "cengonline-e8060",
+    "storage_bucket": "cengonline-e8060.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303037703974:android:e744e7e538c1342cdc03e7",
+        "android_client_info": {
+          "package_name": "com.example.cengonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303037703974-a5d9jq8bfu21cdv9arun01o3kncqiar2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cengonline",
+            "certificate_hash": "2294ea2b7e862007f55cf32eded48d3345f7dfd5"
+          }
+        },
+        {
+          "client_id": "303037703974-2augktio762d2nf1gi4g9t0itn74mkns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6SPVWdRazvVZupeiJK7SfLvHfGWKsgKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303037703974-2augktio762d2nf1gi4g9t0itn74mkns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

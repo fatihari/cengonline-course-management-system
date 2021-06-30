@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_courseName"
+        android:text="course name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_infoText"
+        android:text="info text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_date"
+        android:text="Last upload date: 24 June 2020, 23.59"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_assignment_courseId"
+        android:text="date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/assignment_write_answer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Upload your answers..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <Button
+        android:id="@+id/show_assignment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click twice for the answer to your homework."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

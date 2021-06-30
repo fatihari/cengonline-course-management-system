@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CENGOnline</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="name_and_surname">Name and Surname</string>
+    <string name="ex_cme2206_concepts_of_programming_languages">ex. CME2206 - Concepts of Programming Languages</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_period">Course Period</string>
+    <string name="course_code">Course Code</string>
+    <string name="ex_2019_2020_spring_semester">ex. 2019-2020 Spring Semester</string>
+    <string name="cme3202">cme3202</string>
+    <string name="ex_cme3202_concepts_of_programming_languages">ex. CME3202 Concepts of Programming Languages</string>
+    <string name="ex_cme3202">ex. cme3202</string>
+</resources>

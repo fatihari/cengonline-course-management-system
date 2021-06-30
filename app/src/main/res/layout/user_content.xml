@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_content_profilePicture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"/>
+
+
+        <TextView
+            android:id="@+id/user_content_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/user_content_profilePicture"
+            android:layout_toRightOf="@+id/user_content_profilePicture"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+
+    <Button
+        android:id="@+id/user_content_messageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Message"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_centerVertical="true"
+
+        />
+
+
+</RelativeLayout>

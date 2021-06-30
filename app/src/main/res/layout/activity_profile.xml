@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ceng_online_logo"
+                    android:scaleType="centerCrop"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:paddingBottom="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/linearSlogan"
+                    android:layout_marginLeft="55dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="55dp">
+
+
+                    <TextView
+                        android:id="@+id/slogan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CENG"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="30sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/slogan2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Online"
+                        android:textColor="@color/colorRed"
+                        android:textSize="30sp"
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/bar"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/ic_profile"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_below="@id/toolbar_line"/>
+
+
+    <TextView
+        android:id="@+id/show_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:text="Show My Profile"
+        android:textSize="20sp"
+        android:layout_below="@id/toolbar_line"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_empty_up"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/show_profile"
+        android:layout_marginTop="5dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_action_logout"
+        android:scaleType="fitStart"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/toolbar_empty_up"
+        />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:text="Logout"
+        android:textSize="20sp"
+        android:layout_below="@id/toolbar_empty_up"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_empty_up12"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/logout"
+        android:layout_marginTop="5dp"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/main_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottom_nav"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
