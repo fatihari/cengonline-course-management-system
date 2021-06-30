@@ -1,4 +1,4 @@
-# cengonline-course-management-system
+# android-cengonline-course-management-system
 In this project, a Google Classroom-like Course Management System was developed in Android Studio, using the Java programming language, taking into account the object-oriented design and programming paradigm. This application includes functionalities such as Register, Login, Courses, Assignments, Announcements, Messaging. 
 
 #### Important Note: 
